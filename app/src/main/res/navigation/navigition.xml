@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigition"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/bickImageFragment"
+        android:name="com.bomb.app.backgroundremover.ui.BickImageFragment"
+        android:label="fragment_bick_image"
+        tools:layout="@layout/fragment_bick_image" />
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.bomb.app.backgroundremover.ui.IntroFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/action_introFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.bomb.app.backgroundremover.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_bickImageFragment"
+            app:destination="@id/bickImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changBackgroundFragment"
+        android:name="com.bomb.app.backgroundremover.ui.ChangBackgroundFragment"
+        android:label="fragment_chang_background"
+        tools:layout="@layout/fragment_chang_background" >
+        <argument
+            android:name="uri"
+            app:argType="string" />
+    </fragment>
+</navigation>

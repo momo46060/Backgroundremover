@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Backgroundremover</string>
+    <string name="intristl_id">ca-app-pub-8270803172827285/7118034586</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="intro_magic_title">Automatic background clearing</string>
+    <string name="intro_manual_title">Manual background clearing</string>
+    <string name="intro_zoom_title">Zooming and Moving the picture</string>
+    <string name="intro_magic_description">Use the Magic Wand tool and touch parts of the background you want to erase</string>
+    <string name="intro_manual_description">Use the Pencil tool to erase the background dragging your finger around the screen</string>
+    <string name="intro_zoom_description">Use the Magnifier tool to Zoom in/out so you can make better cuts</string>
+    <string name="intro_label">Quick look</string>
+    <string name="image_chooser_message">Choose an image to cut</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">logout</string>
+    <string name="camera">Camera</string>
+    <string name="pick_image">Image Gallery</string>
+    <string name="processing_image">Processing Image</string>
+    <string name="color">Color</string>
+    <string name="gallery">Image Gallery</string>
+</resources>
